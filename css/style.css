@@ -186,6 +186,98 @@
     margin-top: 5px;
 }
 /* hedar-style-end */
+/* habit-section-start */
+.habit{
+    background-color: #181818;
+    padding-top: 40px;
+    padding-bottom: 60px;
+
+}
+.change-habit{
+    max-width: 680px;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+.change-habit h2{
+    font-weight: 900px;
+    font-size: 48px;
+    line-height: 55px;
+    color: #FFFF;
+    margin-bottom: 13px;
+    margin-left: 60px;
+    
+}
+.change-habit p{
+    font-weight: 400px;
+    font-size: 14px;
+    line-height: 24px;
+    color: #7D7D7D;
+}
+.extra{
+    text-align: center;
+}
+
+
+.flex-four{
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+}
+.img-habit{
+    margin-bottom: 20px;
+}
+.img-habit img{
+    border-radius: 50%;
+}
+.habit-live{
+    display: flex;
+    text-align: center;
+}
+.des-habit h4{
+   font-weight: 600px;
+   font-size: 18px;
+   line-height: 20px;
+   color: #FFFF;
+   margin-bottom: 5px;
+}
+.des-habit p{
+    font-weight: 400px;
+   font-size: 18px;
+   line-height: 18px;
+   color: #7D7D7D;
+   margin-top: 5px;
+}
+.break{
+    display: none;
+}
+/* habit-section-end */
+/* Run-section-start */
+.run{
+    background-color: #181818;
+    padding-top: 40px;
+    padding-bottom: 70px;
+
+}
+.flex-five{
+    display: flex;
+    gap: 200px;
+}
+.run-img img{
+    width: 100%;
+    border-radius: 15px;
+}
+.run-img{
+    max-width: 366px;
+}
+.run-div{
+     background: rgba(34, 34, 34, 1);
+    padding: 25px;
+    border-radius: 15px;
+}
+.run-details{
+    max-width: 443px;
+}
+/* Run-section-end */
 
 /* website-style-end */
 /* Now responsive style start */
@@ -194,10 +286,50 @@
         display: none;
      }
      .main-hedar{
-        padding: 0 10px;
+        padding-left: 30px;
      }
      .flex-third{
         flex-direction: column;
+        gap: 30px;
      }
-}
+     .jim-name h1{
+        font-weight: 900;
+        font-size: 60px;
+        line-height: 75px;    
+     }
+     .jim-name {
+        margin-top: 60px;
+     }
+     .count-1{
+        margin-top: -770px;
+        margin-left: 300px;
+    
+     }
+     .count-2{
+        margin-left: 30px;
+        margin-top: -600px;
+        
+     }
+     .flex-four{
+        flex-direction: column;
+     }
+     .change-habit{
+        max-width: 590px;
+        margin: 0 auto;
+        padding-bottom: 30px;
+     }
+     .break{
+        display: block;
+     }
+     .change-habit .extra-2{
+        margin-left: 170px;
+
+     }
+     .flex-four{
+        margin-left: 180px;
+        margin-bottom: 10px;
+     }
+     .des-habit{
+        margin-bottom: 20px;
+     }
 /* Now responsive style end */
