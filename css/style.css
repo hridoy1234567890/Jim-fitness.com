@@ -277,11 +277,219 @@
 .run-details{
     max-width: 443px;
 }
+.run-details h2{
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 45px;
+    color: #FFFF;
+}
+.run-details p{
+    font-weight: 400px;
+    font-size: 18.5px;
+    line-height: 18px;
+    color: #7D7D7D;
+    margin-top: 20px;
+    margin-bottom: 20px;
+ 
+}
+.run-details button{
+    background-color: #E6533C;
+    padding: 12px 50px;
+    border: none;
+    border-radius: 40px;
+}
+.run-details button a{
+    text-decoration: none;
+    color: #FFFF;
+    font-size: 18px;
+    line-height: 22px;
+}
+
 /* Run-section-end */
+/* exrecises-section-start */
+.exrecises{
+    background-color: #181818;
+    padding: 20px 0;
+
+}
+.exrecises-tittle{
+    max-width: 680px;
+}
+.exrecises-tittle h2{
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 45px;
+    color: #FFFF;
+    margin-bottom: 15px;
+}
+.exrecises-tittle p{
+    font-weight: 400px;
+    font-size: 18.5px;
+    line-height: 18px;
+    color: #7D7D7D;
+    /* margin-bottom: 15px; */
+}
+.live-exrecies-photo{
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+.live-photo-1 img{
+    width: 100%;
+    z-index: 0;
+}
+.live-photo-1{
+    position: relative;
+}
+.live-photo-1::before{
+    content: "";
+    position: absolute;
+    background: rgba(6, 255, 210, 0.5);
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 90%;
+
+}
+.live-photo-2 img{
+    width: 100%;
+}
+.live-photo-2{
+    position: relative;
+}
+.live-photo-2::before{
+    content: "";
+    position: absolute;
+    background: rgba(255, 0, 0, 0.3);
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+}
+.live-photo-2{
+    width: 417px;
+}
+
+.live-photo-3 img{
+    width: 100%;
+}
+.live-photo-3{
+    width: 350px;
+    position: relative;
+    /* position: absolute; */
+}
+.live-photo-3::before{
+    content: "";
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5);
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.live-photo-4 img{
+    width: 100%;
+    height: 236px;
+
+}
+.live-photo-4{
+    width: 420px;
+    position: relative;
+}
+.live-photo-4::before{
+    content: "";
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5);
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+
+.live-photo-5 img{
+    width: 100%;
+    height: 236px;
+}
+.live-photo-5{
+    position: relative;
+}
+.live-photo-5::before{
+    content: "";
+    position: absolute;
+    background: rgba(66, 255, 0, 0.3);
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+.live-photo-6 img{
+    width: 100%;
+    height: 236px;
+}
+.live-photo-6{
+    position: relative;
+}
+.live-photo-6::before{
+    content: "";
+    position: absolute;
+    background: rgba(0, 71, 255, 0.3);
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+.grid-one{
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+}
+.grid-two{
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    margin-top: -37px;
+}
+.live-photo-details h5{
+   position: absolute;
+   margin-top: -60px;
+   padding-left: 30px;
+   color: rgba(0, 0, 0, 1);
+   font-size: 14px;
+   font-weight: 500px;
+   line-height: 17px;
+}
+.live-photo-details-2 h5{
+    position: absolute;
+    margin-top: -200px;
+    padding-left: 30px;
+    color: rgba(255, 255, 255, 1);
+    font-size: 14px;
+    font-weight: 500px;
+    line-height: 17px;
+ 
+}
+.live-photo-4 h5{
+    position: absolute;
+    margin-top: -200px;
+    padding-left: 250px;
+    color: rgba(255, 255, 255, 1);
+    font-size: 14px;
+    font-weight: 500px;
+    line-height: 17px;
+
+}
+/* exrecises-section-end */
 
 /* website-style-end */
 /* Now responsive style start */
 @media only screen and (max-width: 576px){
+    /* .container{
+        max-width: 353px;
+        margin: 0 auto;
+    } */
      .nav-menu{
         display: none;
      }
@@ -332,4 +540,47 @@
      .des-habit{
         margin-bottom: 20px;
      }
-/* Now responsive style end */
+     .flex-five{
+        flex-direction: column;
+        gap: 20px;
+     }
+     .run-div{
+        max-width: 500px;
+        margin-left: 40px;
+     }
+     .run{
+        padding: 0 , 0 , 30px 0;
+     }
+     .run-img img{
+        width: 120%;
+     }
+     .run-details button{
+        width: 100%;
+     }
+     .live-exrecies-photo{
+        margin-left: 60px;
+        margin-bottom: 20px;
+     }
+     .live-photo-3{
+        display: none;
+     }
+     .live-photo-2{
+        width: 200px;
+     }
+     .live-photo-6{
+        display: none;
+     }
+     .live-photo-4{
+        width: 200px;
+
+     }
+     .live-photo-5{
+        height: 100%;
+
+     }
+     .exrecises-tittle{
+        padding: 20px;
+     }
+    
+    }
+    /* Now responsive style end */
